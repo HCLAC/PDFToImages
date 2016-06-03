@@ -20,7 +20,6 @@ C:\Users\gabriel.santos\Documents\PDFToImages\Foster.SlidesToImages\bin\Debug\Fo
 C:\Users\gabriel.santos\Documents\PDFToImages\Foster.SlidesToImages\bin\Debug\Foster.SlidesToImages.pdb
 C:\Users\gabriel.santos\Documents\PDFToImages\Foster.SlidesToImages\bin\Debug\Ghostscript.NET.dll
 C:\Users\gabriel.santos\Documents\PDFToImages\Foster.SlidesToImages\bin\Debug\ICSharpCode.SharpZipLib.dll
-C:\Users\gabriel.santos\Documents\PDFToImages\Foster.SlidesToImages\bin\Debug\System.IO.Packaging.dll
 C:\Users\gabriel.santos\Documents\PDFToImages\Foster.SlidesToImages\bin\Debug\System.Management.Automation.dll
 C:\Users\gabriel.santos\Documents\PDFToImages\Foster.SlidesToImages\obj\Debug\Foster.SlidesToImages.csprojResolveAssemblyReference.cache
 C:\Users\gabriel.santos\Documents\PDFToImages\Foster.SlidesToImages\obj\Debug\Foster.SlidesToImages.dll
