@@ -58,9 +58,14 @@ namespace Foster.SlidesToImages
                 for (int i = 1; i <= rasterizer.PageCount; i++)
                 {
                     Image img = rasterizer.GetPage(300, 300, i);
-                    EncoderParameter qualityParam = new EncoderParameter(System.Drawing.Imaging.Encoder.Quality, 60L);
-                    EncoderParameters encoderParams = new EncoderParameters(1);
-                    encoderParams.Param[0] = qualityParam;
+
+                    EncoderParameter qualityParam = 
+                        new EncoderParameter(System.Drawing.Imaging.Encoder.Quality, 60L);
+
+                    EncoderParameters encoderParams = new EncoderParameters {
+                        Param = new EncoderParameter[] { qualityParam }
+                    };
+
                     var imageStream = new MemoryStream();
                     img.Save(imageStream, GetEncoderInfo("image/jpeg"), encoderParams);
 
